@@ -5,18 +5,18 @@
     url('../fonts/fav.woff2') format('woff2');
 }
 
-@@font-face {
+@font-face {
   font-family: 'Solo1';
   src: url('../fonts/solo.woff') format('woff');
-  src: url('../fonts/Quartier-Solo.woff2') format('woff2');
-  src: url('../fonts/Quartier-Solo.ttf') format('ttf');
+  /* src: url('../fonts/Quartier-Solo.woff2') format('woff2');
+  src: url('../fonts/Quartier-Solo.ttf') format('ttf'); */
 }
 
-@@font-face {
+@font-face {
   font-family: 'Solo2';
   src: url('../fonts/soloi.woff') format('woff');
-  src: url('../fonts/Quartier-SoloItalic.woff2') format('woff2');
-  src: url('../fonts/Quartier-SoloItalic.ttf') format('ttf');
+  /* src: url('../fonts/Quartier-SoloItalic.woff2') format('woff2');
+  src: url('../fonts/Quartier-SoloItalic.ttf') format('ttf'); */
 }
 
 @font-face {
