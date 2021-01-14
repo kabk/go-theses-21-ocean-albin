@@ -63,7 +63,7 @@ body {
 }
 
 img{
-  height: 35vh;
+  height: auto;
   width: 100%;
   object-fit: scale-down;
   border-radius: 25px;
