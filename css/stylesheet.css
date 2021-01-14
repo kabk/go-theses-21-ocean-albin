@@ -6,18 +6,22 @@
 }
 
 @font-face {
+  font-family: 'Solo1';
+  src: url('../fonts/solo.woff') format('woff');
+  /* src: url('../fonts/Quartier-Solo.woff2') format('woff2');
+  src: url('../fonts/Quartier-Solo.ttf') format('ttf'); */
+}
+
+@font-face {
+  font-family: 'Solo2';
+  src: url('../fonts/soloi.woff') format('woff');
+  /* src: url('../fonts/Quartier-SoloItalic.woff2') format('woff2');
+  src: url('../fonts/Quartier-SoloItalic.ttf') format('ttf'); */
+}
+
+@font-face {
   font-family: 'Edit';
   src: url('../fonts/ENew.woff') format('woff');
-}
-
-@@font-face {
-  font-family: 'solo';
-  src: url('../fonts/solo.woff') format('woff');
-}
-
-@@font-face {
-  font-family: 'soloi';
-  src: url('../fonts/soloi.woff') format('woff');
 }
 
 :root {
