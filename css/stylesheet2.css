@@ -46,8 +46,8 @@
 }
 
 body {
-  font-size: 20px;
-  --contentWidth: 90%;
+  /* font-size: 20px; */
+  --contentWidth: 94%;
   max-width: var(--contentWidth);
   font-family: Solo1, sans-serif;
   overflow-x: hidden;
@@ -71,8 +71,8 @@ h1 {
   font-family: 'Solo1', sans-serif;
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 50px rgba(155, 0, 255, 1);
-  font-size: 200px;
-  line-height: 175px;
+  font-size: 11vh;
+  line-height: 10vh;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -82,8 +82,8 @@ h2 {
   font-family: 'Solo2', sans-serif;
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 30px rgba(155, 0, 255, 1);
-  font-size: 35px;
-  line-height: 45px;
+  font-size: 1.5vh;
+  line-height: 2vh;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -161,6 +161,35 @@ sup {
   z-index: 1002;
   overflow: auto;
 } */
+
+.containeronderkanttypo {
+  display: flex;
+justify-content: center;
+}
+
+.middentypo {
+  font-family: 'Solo2', sans-serif;
+  font-size: 2.5vh;
+  line-height: 3vh;
+  position: absolute;
+  top: 31vh;
+  text-align: center;
+}
+
+.onderkanttypo {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+
+}
+
+.bodyclicker {
+  margin-left: -100%;
+  position: fixed;
+  width:1000%;
+  height:100%;
+}
+
 .containerbody {
   position: relative;
   top: 33vh;
