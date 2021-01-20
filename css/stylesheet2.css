@@ -198,10 +198,10 @@ justify-content: center;
 
 .bodyclicker {
   margin-left: -3%;
-  position: fixed;
+  position:absolute;
   width:100%;
   height:100%;
-  /* border: 5px solid red; */
+  border: 5px solid red;
 }
 
 .containerbody {
