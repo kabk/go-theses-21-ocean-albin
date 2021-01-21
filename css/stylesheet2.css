@@ -58,6 +58,16 @@ body {
   overflow-x: hidden;
 }
 
+.image1
+{
+  height: auto;
+  width: 75%;
+  object-fit: contain;
+  border-radius: 50px;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
 img {
   height: auto;
   width: 100%;
@@ -183,7 +193,14 @@ justify-content: center;
   position: absolute;
   bottom: 0;
   text-align: center;
+}
 
+.italiccovertypo {
+  font-family: 'Solo2', sans-serif;
+  font-size: 2.5vh;
+  line-height: 3vh;
+  position: absolute;
+  text-align: center;
 }
 
 .navbar {
@@ -211,6 +228,7 @@ justify-content: center;
 
 .containercontainer {
 position: absolute;
+width: 100%;
 }
 
 .container {
