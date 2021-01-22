@@ -85,8 +85,8 @@ h1 {
   font-family: 'Solo1', sans-serif;
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 50px rgba(155, 0, 255, 1);
-  font-size: 20vw;
-  line-height: 17vw;
+  font-size: 18vw;
+  line-height: 16vw;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -191,6 +191,10 @@ sup {
   width: 100%;
   overflow-wrap: break-word;
 word-wrap: break-word;
+}
+
+.bookgames {
+  color: rgba(155, 0, 255, 1);
 }
 
 .emoji {
