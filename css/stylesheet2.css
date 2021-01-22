@@ -181,6 +181,18 @@ sup {
   overflow: auto;
 } */
 
+.achieve {
+  font-family: 'Solo1', sans-serif;
+  font-size: 7vw;
+  line-height: 8vw;
+}
+
+.lastachieve {
+  font-family: 'Solo1', sans-serif;
+  font-size: 10vw;
+  line-height: 10vw;
+  text-align: center;
+}
 .covername {
   font-family: 'Solo1', sans-serif;
   font-size: 5vw;
