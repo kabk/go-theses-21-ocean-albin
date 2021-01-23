@@ -189,6 +189,10 @@ text-align: left;
   text-decoration: none;
 }
 
+#six {
+  font-size: 16vw;
+}
+
 /* menu */
 
 .sidenav {
