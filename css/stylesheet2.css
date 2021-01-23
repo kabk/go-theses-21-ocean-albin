@@ -193,6 +193,11 @@ text-align: left;
   font-size: 16vw;
 }
 
+#seven {
+  color: white;
+  text-decoration: none;
+}
+
 /* menu */
 
 .sidenav {
@@ -210,9 +215,10 @@ text-align: left;
 }
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  /* padding: 8px 8px 8px 32px; */
   text-decoration: none;
-  font-size: 9vw;
+  font-size: 8vw;
+  line-height: 9vw;
   color: rgba(155, 0, 255, 1);
   display: block;
   transition: 0.3s;
@@ -313,14 +319,16 @@ text-align: left;
 }
 
 .navbar {
-  width: 120vw;
+  width: 100vw;
   font-size: 12vw;
   position: fixed;
   bottom: 0;
-  text-align: center;
+  /* text-align: center; */
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 50px rgba(155, 0, 255, 1);
   /* background-color: rgba(200, 200, 200); */
+  display: flex;
+  justify-content: space-between;
 }
 
 .bodyclicker {
