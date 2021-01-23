@@ -129,6 +129,7 @@ h6 {
   color: rgba(155, 0, 255, 1);
   font-size: 4vw;
   font-style: italic;
+  margin-left: 1em;
 }
 
 p {
@@ -162,14 +163,22 @@ figcaption {
   margin: -24px 0 0 24px;
 }
 
-#one{
+#one {
   font-family: 'Solo2', sans-serif;
   font-size: 1.5vw;
   margin: -24px 0 0 24px;
 }
 
-.imagecaption {
+#two {
+text-align: left;
+}
 
+#three {
+  font-size: 5vw;
+  line-height: 5vw;
+}
+
+.imagecaption {
 }
 
 .achieve {
@@ -237,8 +246,8 @@ figcaption {
 
 .italiccovertypo {
   font-family: 'Solo2', sans-serif;
-  font-size: 2.5vh;
-  line-height: 3vh;
+  /* font-size: 2.5vh;
+  line-height: 3vh; */
   position: absolute;
   text-align: center;
 }
