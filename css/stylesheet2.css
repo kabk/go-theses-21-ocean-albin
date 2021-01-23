@@ -198,6 +198,13 @@ text-align: left;
   text-decoration: none;
 }
 
+#eight {
+  color: white;
+  text-decoration: none;
+  text-align: right;
+  margin-right: 1vw;
+}
+
 /* menu */
 
 .sidenav {
@@ -329,6 +336,17 @@ text-align: left;
   /* background-color: rgba(200, 200, 200); */
   display: flex;
   justify-content: space-between;
+}
+
+.navbartrailer {
+  width: 100vw;
+  font-size: 12vw;
+  position: fixed;
+  bottom: 0;
+  text-align: right;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 50px rgba(155, 0, 255, 1);
+  /* background-color: rgba(200, 200, 200); */
 }
 
 .bodyclicker {
