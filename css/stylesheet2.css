@@ -160,7 +160,12 @@ figcaption {
   font-family: 'Solo2', sans-serif;
   font-size: 3vw;
   margin: -24px 0 0 24px;
-  /* color: rgba(155, 0, 255, 1); */
+}
+
+#one{
+  font-family: 'Solo2', sans-serif;
+  font-size: 1.5vw;
+  margin: -24px 0 0 24px;
 }
 
 .imagecaption {
