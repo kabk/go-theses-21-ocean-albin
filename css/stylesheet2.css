@@ -181,6 +181,24 @@ sup {
   overflow: auto;
 } */
 
+figure {
+    display: inline-block;
+}
+figcaption {
+    margin: -24px 0 0 24px;
+    font-family: 'Solo1', sans-serif;
+    font-size: 2.5vw;
+    font-style: italic;
+    /* color: rgba(155, 0, 255, 1); */
+}
+figure {
+    padding: 5px;
+}
+
+.imagecaption {
+
+}
+
 .achieve {
   font-family: 'Solo1', sans-serif;
   font-size: 5vw;
