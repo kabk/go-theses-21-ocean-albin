@@ -56,8 +56,7 @@ body {
   overflow-x: hidden;
 }
 
-.image1
-{
+.image1 {
   height: auto;
   width: 65%;
   object-fit: contain;
@@ -148,48 +147,20 @@ a:hover {
 
 sup {
   vertical-align: super;
-  font-size: 10px;
+  font-size: 1vw;
   color: rgba(155, 0, 255, 1);
 }
 
-/* .black_overlay {
-  display: none;
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  z-index: 1001;
-  -moz-opacity: 0.8;
-  opacity: .80;
-  filter: alpha(opacity=80);
+figure {
+  display: inline-block;
+  padding: 5px;
 }
-.white_content {
-  display: none;
-  position: absolute;
-  top: 25%;
-  left: 25%;
-  width: 50%;
-  height: 50%;
-  padding: 16px;
-  border: 16px solid orange;
-  background-color: white;
-  z-index: 1002;
-  overflow: auto;
-} */
 
-figure {
-    display: inline-block;
-}
 figcaption {
-    margin: -24px 0 0 24px;
-    font-family: 'Solo2', sans-serif;
-    font-size: 2.5vw;
-    /* color: rgba(155, 0, 255, 1); */
-}
-figure {
-    padding: 5px;
+  font-family: 'Solo2', sans-serif;
+  font-size: 3vw;
+  margin: -24px 0 0 24px;
+  /* color: rgba(155, 0, 255, 1); */
 }
 
 .imagecaption {
@@ -208,6 +179,7 @@ figure {
   line-height: 10vw;
   text-align: center;
 }
+
 .covername {
   font-family: 'Solo1', sans-serif;
   font-size: 5vw;
@@ -218,7 +190,7 @@ figure {
 .workscited {
   width: 100%;
   overflow-wrap: break-word;
-word-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .bookgames {
@@ -226,18 +198,18 @@ word-wrap: break-word;
 }
 
 .emoji {
-    font-family: 'Solo1', sans-serif;
-    color: white;
-    text-shadow: 1px 1px 2px black, 0 0 50px rgba(155, 0, 255, 1);
-    font-size: 10vw;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  font-family: 'Solo1', sans-serif;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 50px rgba(155, 0, 255, 1);
+  font-size: 10vw;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .containeronderkanttypo {
   display: flex;
-justify-content: center;
+  justify-content: center;
 }
 
 .middentypo {
@@ -278,9 +250,9 @@ justify-content: center;
 
 .bodyclicker {
   margin-left: -3%;
-  position:absolute;
-  width:100%;
-  height:100%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
   /* border: 5px solid red; */
 }
 
@@ -290,8 +262,8 @@ justify-content: center;
 }
 
 .containercontainer {
-position: absolute;
-width: 100%;
+  position: absolute;
+  width: 100%;
 }
 
 .container {
@@ -339,16 +311,18 @@ width: 100%;
 }
 
 @keyframes glitch {
-  1%{
+  1% {
     transform: rotateX(10deg) skewX(90deg);
   }
-  2%{
+
+  2% {
     transform: rotateX(0deg) skewX(0deg);
   }
 }
 
 @keyframes noise-1 {
   $steps: 30;
+
   @for $i from 1 through $steps {
     #{percentage($i*(1/$steps))} {
       $top: random(100);
@@ -360,6 +334,7 @@ width: 100%;
 
 @keyframes noise-2 {
   $steps: 30;
+
   @for $i from 0 through $steps {
     #{percentage($i*(1/$steps))} {
       $top: random(100);
@@ -383,22 +358,18 @@ width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-
-  background: repeating-linear-gradient(
-    to bottom,
+  background: repeating-linear-gradient(to bottom,
     transparent 0%,
     rgba(255, 255, 255, 0.05) .5%,
-    transparent 1%
-  );
-
+    transparent 1%);
   animation: fudge 7s ease-in-out alternate infinite;
 }
-
 
 @keyframes fudge {
   from {
     transform: translate(0px, 0px);
   }
+
   to {
     transform: translate(0px, 2%);
   }
@@ -428,17 +399,14 @@ width: 100%;
 }
 
 @keyframes glitch-2 {
-  1%{
+  1% {
     transform: rotateX(10deg) skewX(70deg);
   }
-  2%{
+
+  2% {
     transform: rotateX(0deg) skewX(0deg);
   }
 }
-
-
-
-
 
 .page-title {
   font-family: 'solo';
