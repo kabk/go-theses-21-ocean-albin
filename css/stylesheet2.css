@@ -189,16 +189,22 @@ text-align: left;
 #five {
   color: white;
   text-decoration: none;
+  -webkit-animation: grow 2s ease-out;
 }
 
 #six {
   font-size: 16vw;
-  animation: glitch 5s 5s infinite;
+  /* animation: glitch 5s 5s infinite; */
+
+  /* -webkit-animation: grow 2s ease-out;
+  -webkit-animation: rotation 5s; */
+  -webkit-animation: growrotate 2s ease-out;
 }
 
 #seven {
   color: white;
   text-decoration: none;
+  -webkit-animation: grow 2s ease-out;
 }
 
 #eight {
@@ -416,6 +422,38 @@ text-align: left;
   overflow: hidden;
   animation: noise-2 3s linear infinite alternate-reverse, glitch 5s 5s infinite;
   overflow-x: hidden;
+}
+
+@keyframes growrotate {
+  1% {
+    -webkit-transform: scale(0);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes grow {
+  1% {
+    -webkit-transform: scale(0);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes rotation {
+  1% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes glitch {
