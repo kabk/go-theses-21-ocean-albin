@@ -82,11 +82,12 @@ h1 {
   font-family: 'Solo1', sans-serif;
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 50px rgba(155, 0, 255, 1);
-  font-size: 18vw;
-  line-height: 16vw;
+  font-size: 16vw;
+  line-height: 15vw;
   margin: 0;
   padding: 0;
   text-align: center;
+  letter-spacing: -1.1vw;
 }
 
 h2 {
@@ -177,6 +178,7 @@ text-align: left;
 #three {
   font-size: 5vw;
   line-height: 5vw;
+  text-align: center;
 }
 
 #four {
@@ -203,6 +205,11 @@ text-align: left;
   text-decoration: none;
   text-align: right;
   margin-right: 1vw;
+}
+
+#nine {
+  font-size: 16.6vw;
+    letter-spacing: -1.5vw;
 }
 
 /* menu */
@@ -323,6 +330,8 @@ text-align: left;
   line-height: 3vh; */
   position: absolute;
   text-align: center;
+  padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 .navbar {
@@ -377,16 +386,15 @@ text-align: left;
 
 .glitch {
   font-family: 'Solo1', sans-serif;
-  /* color: white;
-  text-shadow: 1px 1px 2px black, 0 0 50px rgba(155, 0, 255, 1); */
-  font-size: 192px;
-  line-height: 165px;
-  margin: 0;
-  margin-top: 2vh;
-  padding: 0;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 50px rgba(155, 0, 255, 1);
+  font-size: 18vw;
+  line-height: 16vw;
+  padding: 3vw;
   text-align: center;
   animation: glitch 5s 5s infinite;
   overflow-x: hidden;
+  letter-spacing: -1vw;
 }
 
 .glitch::before {
@@ -395,7 +403,6 @@ text-align: left;
   left: -2px;
   text-shadow: -5px 0 magenta;
   overflow: hidden;
-  top: 0;
   animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
   overflow-x: hidden;
 }
@@ -406,7 +413,6 @@ text-align: left;
   left: 2px;
   text-shadow: -5px 0 lightgreen;
   overflow: hidden;
-  top: 0;
   animation: noise-2 3s linear infinite alternate-reverse, glitch 5s 5s infinite;
   overflow-x: hidden;
 }
