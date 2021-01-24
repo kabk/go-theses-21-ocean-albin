@@ -193,6 +193,7 @@ text-align: left;
 
 #six {
   font-size: 16vw;
+  animation: glitch 5s 5s infinite;
 }
 
 #seven {
