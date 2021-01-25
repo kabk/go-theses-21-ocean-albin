@@ -720,6 +720,7 @@ figcaption {
   transition-duration: .25s;
   transition-property: background-color color;
   transition-timing-function: ease;
+  /* height: fit-content; */
 }
 
 .littlefoot-footnote__button__number:hover::after, .littlefoot-footnote__button__number.is-active::after {
@@ -767,6 +768,7 @@ figcaption {
   transition-property: opacity, transform;
   transition-timing-function: ease;
   z-index: 10;
+  /* height: fit-content; */
 }
 
 .littlefoot-footnote.is-positioned-top {
@@ -842,6 +844,7 @@ figcaption {
     transition: transform 0.3s ease;
     max-width: 120% !important;
     width: 100vw;
+    /* height: fit-content; */
   }
 
   .littlefoot-footnote.is-active {
@@ -853,6 +856,7 @@ figcaption {
     max-width: 120% !important;
     transform: none;
     width: 100vw;
+    /* height: fit-content; */
   }
 
   .littlefoot-footnote .littlefoot-footnote__wrapper, .littlefoot-footnote .littlefoot-footnote__content {
@@ -875,6 +879,7 @@ figcaption {
   position: relative;
   width: 100%;
   z-index: 14;
+  /* height: fit-content; */
 }
 
 .littlefoot-footnote__content {
@@ -888,11 +893,12 @@ figcaption {
   font-size: initial;
   font-style: initial;
   font-weight: initial;
-  max-height: 15em;
+  max-height: 60em;
   overflow: auto;
   padding: .6em 1.4em .6em;
   position: relative;
   z-index: 8;
+  height: fit-content;
 }
 
 .littlefoot-footnote__content img {
