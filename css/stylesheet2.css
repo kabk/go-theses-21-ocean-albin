@@ -94,8 +94,8 @@ h2 {
   font-family: 'Solo2', sans-serif;
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 30px rgba(155, 0, 255, 1);
-  font-size: 4vw;
-  line-height: 4vw;
+  font-size: 5vw;
+  line-height: 5vw;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -111,7 +111,7 @@ h3 {
 h4 {
   font-family: 'Solo1', sans-serif;
   color: rgba(155, 0, 255, 1);
-  font-size: 4vw;
+  font-size: 5vw;
   font-style: italic;
   text-align: center;
 }
@@ -128,14 +128,14 @@ h5 {
 h6 {
   font-family: 'Solo1', sans-serif;
   color: rgba(155, 0, 255, 1);
-  font-size: 4vw;
+  font-size: 5vw;
   font-style: italic;
   margin-left: 1em;
 }
 
 p {
   font-family: 'Solo1', sans-serif;
-  font-size: 3vw;
+  font-size: 4vw;
 }
 
 a {
@@ -166,8 +166,8 @@ figcaption {
 
 #one {
   font-family: 'Solo2', sans-serif;
-  font-size: 1.5vw;
-  margin: -2em 0 0 24px;
+  font-size: 2.5vw;
+  margin: -1em 0 0 24px;
   color: rgba(51, 51, 51, 0.6);
 }
 
