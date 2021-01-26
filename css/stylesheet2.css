@@ -758,7 +758,7 @@ figcaption {
   left: 0;
   line-height: 0;
   margin: 2.01924em 0;
-  max-width: 120vw;
+  max-width: 100vw;
   opacity: 0;
   position: absolute;
   top: 0;
@@ -899,6 +899,8 @@ figcaption {
   position: relative;
   z-index: 8;
   height: fit-content;
+  width: 101vw;
+  word-break: break-all;
 }
 
 .littlefoot-footnote__content img {
