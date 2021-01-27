@@ -227,6 +227,11 @@ figcaption {
   color: black;
 }
 
+#twelve {
+  font-family: 'Solo2', sans-serif;
+  letter-spacing: -0.075vw;
+}
+
 /* menu */
 .sidenav {
   height: 100%;
