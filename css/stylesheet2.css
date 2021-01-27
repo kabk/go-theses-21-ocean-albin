@@ -220,6 +220,11 @@ figcaption {
 
 #ten {
   color: black;
+  line-height: 5vw;
+}
+
+#eleven {
+  color: black;
 }
 
 /* menu */
